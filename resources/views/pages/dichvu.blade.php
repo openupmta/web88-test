@@ -38,7 +38,7 @@
             <div class="service__silder">
                 @if(isset($sliders))
                     @foreach($sliders as $slider)
-                        <img src="{{ asset('assets/slider-dichvu/'.$slider->image )}}" alt="">
+                        <img style="width:218px;height:138px" src="{{ asset('assets/slider-dichvu/'.$slider->image )}}" alt="">
                     @endforeach
                 @endif
             </div>
